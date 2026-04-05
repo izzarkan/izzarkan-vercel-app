@@ -1,36 +1,123 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# izzarkan.github.io
 
-## Getting Started
+A personal website showcasing my personal links and a Gallery fetching my photos from Unsplash via the Unsplash API.
 
-First, run the development server:
+As well as a place to put my Project links.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Components and Frameworks used:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Bootstrap 5
+- Local CSS & SCSS
+- Local JS
+- Unsplash Developer API
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## TODO stuff
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [ ] Remake (ONLY if I actually want to do it.)
+- [ ] ~~Implement integration with projects (Could be abandoned, since I don't even understand what I meant by Integration)~~
+- [X] Add Unsplash integration with Unsplash API
+- [X] Add Gallery page with Unsplash API
+- [X] Update about me
 
-## Learn More
+## Log 1 - 1 October 2025
 
-To learn more about Next.js, take a look at the following resources:
+Initial commit, removed ties with the old version.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Changes:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Removed all ties with old version (main-repo)
+- Archived old version
+- Removed TODO section
+- Cleaned footer
 
-## Deploy on Vercel
+## Log 2 - 20 December 2025
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Second commit, added Unsplash for my mediocre photography skills.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Changes:
+
+- Added Unsplash link
+- Added Steam link
+- Updated Github link
+- Changed title
+- Added dynamic age counter
+- Deleted junks
+- Updated about me
+
+That's all, thanks.
+
+## Log 3 - 21 December 2025
+
+Third commit, added more project links and fixed about me.
+
+### Changes:
+
+- Updated about me
+- Added more project links
+- Slightly fixed the CSS
+
+## Log 4 - 09 February 2026
+
+Fourth commit and push to GitHub, added a Gallery functionality with Unsplash API
+
+A way for me to actually learn how to use APIs.
+
+### Changes:
+
+- Updated index.html
+- Added Gallery
+- Integrated Unsplash API With Gallery
+- Added "Contact Me" on navbar
+- Added fullscreen mode on Gallery
+- Fixed some bugs
+
+## Log 5 - 10 February 2026
+
+Fifth commit and push to GitHub, added attribution and updated a few more things
+
+### Changes:
+
+- Added attribution
+- Fixed a few things
+- Fixed Gallery's Javascript
+- Changed repository's description
+
+## Log 6 - 19 March 2026
+
+Sixth commit & push to GitHub, just updated the age counter.
+
+### Changes:
+
+- Fixed age counter
+
+## Log 7 - 1 April 2026
+
+Seventh commit and push, updated profile, added tooltips, and more description
+
+### Changes:
+
+- Updated profile
+- Changed from "Links" -> "Find me on"
+- Changed from "Intro and Stuff" -> "Intro"
+- Changed Intro content
+- Added Profile
+- Added Hobbies
+- Added Experiences
+- Added Organizations and Extracurricular
+- Added Communities
+- Added tooltips
+- Added [reference](https://genius.com/25781043)
+
+## Log 8 - 5 April 2026
+
+Eighth commit before switch to Vercel & NextJS
+
+### Changes:
+
+- Added disclaimer to switch to Vercel version
+
+## CREDITS
+ 
+- Thanks to [svgrepo.com](https://svgrepo.com) for providing me free SVG icons
+- Thanks to [Unsplash Developer](https://unsplash.com) for providing me a free API service
+- ChatGPT for debugging and guidance
