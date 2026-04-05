@@ -24,6 +24,7 @@ export default function SocialLinks() {
           data-bs-toggle="tooltip"
           data-bs-placement="top"
           data-bs-title="Instagram"
+          data-bs-delay='{"show": 300, "hide": 100}'
         >
           <img src="/media/instagram.svg" width="32" alt="Instagram" />
         </a>
@@ -35,6 +36,7 @@ export default function SocialLinks() {
           data-bs-toggle="tooltip"
           data-bs-placement="top"
           data-bs-title="GitHub"
+          data-bs-delay='{"show": 200, "hide": 100}'
         >
           <img src="/media/github.svg" width="32" alt="GitHub" />
         </a>
@@ -46,6 +48,7 @@ export default function SocialLinks() {
           data-bs-toggle="tooltip"
           data-bs-placement="top"
           data-bs-title="X / Twitter"
+          data-bs-delay='{"show": 200, "hide": 100}'
         >
           <img src="/media/x.svg" width="32" alt="X" />
         </a>
@@ -57,6 +60,7 @@ export default function SocialLinks() {
           data-bs-toggle="tooltip"
           data-bs-placement="top"
           data-bs-title="Unsplash"
+          data-bs-delay='{"show": 200, "hide": 100}'
         >
           <img src="/media/unsplash.svg" width="32" alt="Unsplash" />
         </a>
@@ -68,6 +72,7 @@ export default function SocialLinks() {
           data-bs-toggle="tooltip"
           data-bs-placement="top"
           data-bs-title="Steam"
+          data-bs-delay='{"show": 200, "hide": 100}'
         >
           <img src="/media/steam.svg" width="32" alt="Steam" />
         </a>
@@ -79,6 +84,7 @@ export default function SocialLinks() {
           data-bs-toggle="tooltip"
           data-bs-placement="top"
           data-bs-title="Pictures I deem as my 'masterpieces'"
+          data-bs-delay='{"show": 200, "hide": 100}'
         >
           <img
             src="/media/google-photos.svg"

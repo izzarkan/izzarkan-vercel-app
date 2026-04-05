@@ -55,83 +55,109 @@ return (
 
     <div className={`hidden-text ${showMore ? "show" : ""}`}>
         <span>
-        <h5 className="poppins-bold">Profile</h5>
-        <p>
-            Name: Arkan Izz Zaydan Maulana <br />
-            Date of Birth: June 27 2008 <br />
-            Age: {getAge()} years old <br />
-            Current Education: High School Student at SMAN 1 Tasikmalaya <br />
-            Language: Indonesian & English <br />
-            Location: Tasikmalaya, West Java, Indonesia <br />
-            Pronouns: He/Him <br />
-            Gender: Male
-        </p>
+            <h5 className="poppins-bold">Profile</h5>
+            <p>
+                Name: Arkan Izz Zaydan Maulana <br />
+                Date of Birth: June 27 2008 <br />
+                Age: {getAge()} years old <br />
+                Current Education: High School Student at SMAN 1 Tasikmalaya <br />
+                Language: Indonesian & English <br />
+                Location: Tasikmalaya, West Java, Indonesia <br />
+                Pronouns: He/Him <br />
+                Gender: Male
+            </p>
         </span>
 
         <span>
-        <h5 className="poppins-bold">Hobbies</h5>
-        <ul>
-            <li>Web development (or software programming in general)</li>
-            <li>Playing video games</li>
-            <li>Watching documentaries</li>
-            <li>Photography</li>
-            <li>Videography</li>
-        </ul>
+            <h5 className="poppins-bold">Education History</h5>
+            <ul>
+                <li>SDIT Al-Mukrom Elementary School</li>
+                <p className="em-text">2015 - 2021</p>
+                <li>Al-Muttaqin Junior High School</li>
+                <p className="em-text">2021 - 2024</p>
+                <li>SMAN 1 Tasikmalaya High School</li>
+                <p className="em-text">2024 - Present</p>
+            </ul>
         </span>
 
         <span>
-        <h5 className="poppins-bold">Experiences</h5>
-        <ul>
-            <li>
-                Part of the Project Design Document team for my class P5 Project
-                <p className="em-text">
-                    September 2 2024 - September 6 2024
-                </p>
-            </li>
-            <li>
-                Part of the Committee as a part of the IT Team for my school's
-                69th Anniversary Event
-                <p className="em-text">
-                    September 15 2025 - September 20 2025
-                </p>
-            </li>
-            <li>
-                Part of the Delegation Committee of the Documentation & Media
-                Team for my school's Annual Islamic Event
-                <p className="em-text">
-                    February 23 2026 - March 13 2026
-                </p>
-            </li>
-            <li>
-                Part of the Committee as a part of the Stream Operator Team for
-                my school's EXION Event
-                <p className="em-text">March 30 2026</p>
-            </li>
-        </ul>
+            <h5 className="poppins-bold">Hobbies</h5>
+            <ul>
+                <li>Web development (or software programming in general)</li>
+                <li>Playing video games</li>
+                <li>Watching documentaries</li>
+                <li>Photography</li>
+                <li>Videography</li>
+            </ul>
+        </span>
+
+        <span>
+            <h5 className="poppins-bold">Skills</h5>
+            <ul>
+                <li>Static Web Development (HTML, CSS, JavaScript)</li>
+                <li>Basic Knowledge in Dynamic Web Development (Node.js)</li>
+                <li>Live Streaming (OBS)</li>
+                <li>Basic Knowledge in Graphic Design (Canva, Affinity)</li>
+                <li>Photography</li>
+                <li>Basic Videography</li>
+                <li>Basic Knowledge in Video Editing (DaVinci Resolve, CapCut)</li>
+                <li>Camera Handling</li>
+            </ul>
+        </span>
+
+        <span>
+            <h5 className="poppins-bold">Experiences</h5>
+            <ul>
+                <li>
+                    Part of the Project Design Document team for my class P5 Project
+                    <p className="em-text">
+                        September 2 2024 - September 6 2024
+                    </p>
+                </li>
+                <li>
+                    Part of the Committee as a part of the IT Team for my school's
+                    69th Anniversary Event
+                    <p className="em-text">
+                        September 15 2025 - September 20 2025
+                    </p>
+                </li>
+                <li>
+                    Part of the Delegation Committee of the Documentation & Media
+                    Team for my school's Annual Islamic Event
+                    <p className="em-text">
+                        February 23 2026 - March 13 2026
+                    </p>
+                </li>
+                <li>
+                    Part of the Committee as a part of the Stream Operator Team for
+                    my school's EXION Event
+                    <p className="em-text">March 30 2026</p>
+                </li>
+            </ul>
         </span>
 
 
         <span>
-        <h5 className="poppins-bold">
-            Organizations & Extracurricular Activities
-        </h5>
-        <ol>
-            <li>
-            MICRO - Maestro IT Real Organization (2024 - Present)
-            <p>As: Programming Division Coordinator (2025 - present)</p>
-            </li>
-            <li>
-            SCC - SATAS Cinema Club (2024 - Present)
-            <p>As: Editing Division Coordinator (2025 - Present)</p>
-            </li>
-        </ol>
+            <h5 className="poppins-bold">
+                Organizations & Extracurricular Activities
+            </h5>
+            <ol>
+                <li>
+                MICRO - Maestro IT Real Organization (2024 - Present)
+                <p>As: Programming Division Coordinator (2025 - present)</p>
+                </li>
+                <li>
+                SCC - SATAS Cinema Club (2024 - Present)
+                <p>As: Editing Division Coordinator (2025 - Present)</p>
+                </li>
+            </ol>
         </span>
 
         <span>
-        <h5 className="poppins-bold">Communities</h5>
-        <ul>
-            <li>Our Creativity</li>
-        </ul>
+            <h5 className="poppins-bold">Communities</h5>
+            <ul>
+                <li>Our Creativity</li>
+            </ul>
         </span>
     </div>
 

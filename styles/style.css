@@ -18,6 +18,7 @@ body {
     color: rgb(187, 66, 66) !important;
     text-decoration: underline !important;
     cursor: pointer !important;
+    transition: ease-in-out 0.3s !important;
 }
 
 .text1 {
@@ -113,12 +114,12 @@ body {
     overflow: hidden;
     opacity: 0;
     transition: max-height 0.6s ease, opacity 0.6s ease;
-  }
-  
-  .hidden-text.show {
-    max-height: 1000px;
+}
+
+.hidden-text.show {
+    max-height: 3000px;
     opacity: 1;
-  }
+}
 
 #read-more-btn {
     background-color: transparent;

@@ -110,11 +110,23 @@ Seventh commit and push, updated profile, added tooltips, and more description
 
 ## Log 8 - 5 April 2026
 
-Eighth commit before switch to Vercel & NextJS
+First commit in Vercel version
 
 ### Changes:
 
-- Added disclaimer to switch to Vercel version
+- Added disclaimer to switch to Vercel version (in older version)
+- Updated source code link in footer
+
+## Log 8.1 - 5 April 2026
+
+Second commit in Vercel version
+
+### Changes:
+
+- Added Education History
+- Added skills
+- Adjusted CSS slightly
+- Fixed favicon
 
 ## CREDITS
  

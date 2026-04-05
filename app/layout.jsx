@@ -7,6 +7,14 @@ import BootstrapClient from "@/components/BootstrapClient";
 import Navbar from "@/components/Navbar";
 import { Poppins } from "next/font/google";
 
+export const metadata = {
+  title: "Izz's Main Page",
+  description: "A portfolio of a certain high school student who is having an identity crisis. (Arkan Izz's Portfolio)",
+  icons: {
+    icon: "/media/logo2.svg",
+  },
+};
+
 const poppins = Poppins({
   subsets: ["latin"],
   weight: [
