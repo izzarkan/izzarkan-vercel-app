@@ -1,4 +1,4 @@
-# izzarkan.github.io
+# izzarkan.vercel.app
 
 A personal website showcasing my personal links and a Gallery fetching my photos from Unsplash via the Unsplash API.
 
