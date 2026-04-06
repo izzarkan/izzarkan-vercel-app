@@ -24,7 +24,6 @@ export default function GalleryClient({ images }) {
 
   return (
     <>
-      {/* 🖼️ Gallery */}
       <div className="gallery-grid">
         {images.map((img, index) => (
           <img
@@ -37,7 +36,6 @@ export default function GalleryClient({ images }) {
         ))}
       </div>
 
-      {/* 🧊 Fullscreen Viewer */}
       {currentIndex !== null && (
         <div id="fullscreen-viewer" className="show" onClick={closeFullscreen}>
           <span id="close-btn">&times;</span>
