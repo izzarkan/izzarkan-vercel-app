@@ -27,6 +27,8 @@ body {
 
 .text2 {
     font-size: 1.5rem;
+    line-height: 1.5;
+    /* Added for strict animation height bounds */
 }
 
 #hero {
@@ -66,7 +68,8 @@ body {
     gap: 2rem;
 }
 
-.main-sections, .social-links {
+.main-sections,
+.social-links {
     max-width: 75rem;
     width: 90%;
     text-align: left;
@@ -85,18 +88,17 @@ body {
 }
 
 #todo ul {
-  list-style-type: disc;
-  padding-left: 1.5em;
-  font-size: 1.1rem;
+    list-style-type: disc;
+    padding-left: 1.5em;
+    font-size: 1.1rem;
 }
 
 @keyframes fadeInUp {
     to {
-      opacity: 1;
-      transform: translateY(0);
+        opacity: 1;
+        transform: translateY(0);
     }
-  }
-  
+}
 
 .hyprlink {
     color: #007bff !important;
@@ -113,7 +115,9 @@ body {
     max-height: 0;
     overflow: hidden;
     opacity: 0;
-    transition: max-height 0.6s ease, opacity 0.6s ease;
+    transition:
+        max-height 0.6s ease,
+        opacity 0.6s ease;
 }
 
 .hidden-text.show {
@@ -141,33 +145,33 @@ body {
     text-align: center;
     margin-top: 2rem;
 }
-  
+
 .footer-container {
     max-width: 800px;
     margin: 0 auto;
 }
-  
+
 .footer-links {
     margin-top: 1rem;
     display: flex;
     justify-content: center;
     gap: 1.5rem;
 }
-  
+
 .footer-links a {
     color: #f0f0f0;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
 }
-  
+
 .footer-links a:hover {
     color: #00bcd4;
 }
 
 @media (max-width: 600px) {
     body {
-      font-size: 0.9rem;
+        font-size: 0.9rem;
     }
 }
 
@@ -176,6 +180,7 @@ body {
         flex-direction: column;
         padding: 1rem;
     }
+
     .footer-links {
         flex-direction: column;
         gap: 0.5rem;
@@ -206,4 +211,100 @@ a {
 
 a:hover {
     color: #00bcd4 !important;
+}
+
+.color-change {
+    background: linear-gradient(90deg, #48cae4, #0077b6, #48cae4);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientShift 8s ease-in-out infinite;
+}
+
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.flex-text {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 0.3rem;
+}
+
+.scroller {
+    height: 1.5em;
+    /* Equals to line-height of text2 */
+    line-height: 1.5em;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.scroller-inner {
+    display: flex;
+    flex-direction: column;
+    animation: scrollWords 10s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+}
+
+.scroller-inner span {
+    height: 1.5em;
+    line-height: 1.5em;
+    white-space: nowrap;
+}
+
+@keyframes scrollWords {
+
+    0%,
+    12% {
+        transform: translateY(0);
+    }
+
+    20%,
+    32% {
+        transform: translateY(-1.5em);
+    }
+
+    40%,
+    52% {
+        transform: translateY(-3em);
+    }
+
+    60%,
+    72% {
+        transform: translateY(-4.5em);
+    }
+
+    80%,
+    92% {
+        transform: translateY(-6em);
+    }
+
+    100% {
+        transform: translateY(-7.5em);
+    }
+}
+
+.arrow-down-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+
+.arrow-down-container:hover {
+    transform: translateY(-5px);
 }

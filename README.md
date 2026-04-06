@@ -15,9 +15,9 @@ As well as a place to put my Project links.
 
 - [ ] Remake (ONLY if I actually want to do it.)
 - [ ] ~~Implement integration with projects (Could be abandoned, since I don't even understand what I meant by Integration)~~
-- [X] Add Unsplash integration with Unsplash API
-- [X] Add Gallery page with Unsplash API
-- [X] Update about me
+- [x] Add Unsplash integration with Unsplash API
+- [x] Add Gallery page with Unsplash API
+- [x] Update about me
 
 ## Log 1 - 1 October 2025
 
@@ -128,8 +128,20 @@ Second commit in Vercel version
 - Adjusted CSS slightly
 - Fixed favicon
 
+## Log 9 - 6 April 2026
+
+Major update
+
+### Changes:
+
+- Updated Hero
+- Slightly reworked the intro section
+- Added mailto in intro section
+- Fixed CSS
+- Changed Read More button into Arrow
+
 ## CREDITS
- 
+
 - Thanks to [svgrepo.com](https://svgrepo.com) for providing me free SVG icons
 - Thanks to [Unsplash Developer](https://unsplash.com) for providing me a free API service
 - ChatGPT for debugging and guidance

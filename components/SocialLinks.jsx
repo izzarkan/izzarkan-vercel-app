@@ -1,16 +1,8 @@
 "use client";
-import { useEffect } from "react";
+/* eslint-disable @next/next/no-img-element */
 
 export default function SocialLinks() {
-  useEffect(() => {
-    const bootstrap = require("bootstrap");
-
-    const tooltips = document.querySelectorAll(
-      "#social-links [data-bs-toggle='tooltip']"
-    );
-
-    tooltips.forEach((el) => new bootstrap.Tooltip(el));
-  }, []);
+  // Tooltips are now handled globally in BootstrapClient
 
   return (
     <section id="social-links" className="social-links">
@@ -86,11 +78,7 @@ export default function SocialLinks() {
           data-bs-title="Pictures I deem as my 'masterpieces'"
           data-bs-delay='{"show": 200, "hide": 100}'
         >
-          <img
-            src="/media/google-photos.svg"
-            width="32"
-            alt="Google Photos"
-          />
+          <img src="/media/google-photos.svg" width="32" alt="Google Photos" />
         </a>
       </div>
     </section>

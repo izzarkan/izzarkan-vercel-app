@@ -6,12 +6,10 @@ export default function BootstrapClient() {
   const pathname = usePathname();
 
   useEffect(() => {
-    const bootstrap = require("bootstrap");
-
-    const tooltips = document.querySelectorAll('[data-bs-toggle="tooltip"]');
-    tooltips.forEach((el) => new bootstrap.Tooltip(el));
-
-    document.body.offsetHeight;
+    import("bootstrap").then((bootstrap) => {
+      const tooltips = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+      tooltips.forEach((el) => new bootstrap.Tooltip(el));
+    });
   }, [pathname]);
 
   return null;

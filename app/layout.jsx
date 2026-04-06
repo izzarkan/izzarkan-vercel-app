@@ -1,6 +1,6 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '@/styles/global-style.css';
-import '@/styles/style.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "@/styles/global-style.css";
+import "@/styles/style.css";
 // import '@/styles/gallery-style.css';
 
 import BootstrapClient from "@/components/BootstrapClient";
@@ -9,7 +9,8 @@ import { Poppins } from "next/font/google";
 
 export const metadata = {
   title: "Izz's Main Page",
-  description: "A portfolio of a certain high school student who is having an identity crisis. (Arkan Izz's Portfolio)",
+  description:
+    "A portfolio of a certain high school student who is having an identity crisis. (Arkan Izz's Portfolio)",
   icons: {
     icon: "/media/logo2.svg",
   },
@@ -17,10 +18,7 @@ export const metadata = {
 
 const poppins = Poppins({
   subsets: ["latin"],
-  weight: [
-    "100","200","300","400","500",
-    "600","700","800","900"
-  ],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
 export default function RootLayout({ children }) {
