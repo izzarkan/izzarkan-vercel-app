@@ -4,7 +4,7 @@ A personal website showcasing my personal links and a Gallery fetching my photos
 
 As well as a place to put my Project links.
 
-## Components and Frameworks used:
+## Components and Frameworks used
 
 - Bootstrap 5
 - Local CSS & SCSS
@@ -23,7 +23,7 @@ As well as a place to put my Project links.
 
 Initial commit, removed ties with the old version.
 
-### Changes:
+### Changes
 
 - Removed all ties with old version (main-repo)
 - Archived old version
@@ -34,7 +34,7 @@ Initial commit, removed ties with the old version.
 
 Second commit, added Unsplash for my mediocre photography skills.
 
-### Changes:
+### Changes
 
 - Added Unsplash link
 - Added Steam link
@@ -50,7 +50,7 @@ That's all, thanks.
 
 Third commit, added more project links and fixed about me.
 
-### Changes:
+### Changes
 
 - Updated about me
 - Added more project links
@@ -62,7 +62,7 @@ Fourth commit and push to GitHub, added a Gallery functionality with Unsplash AP
 
 A way for me to actually learn how to use APIs.
 
-### Changes:
+### Changes
 
 - Updated index.html
 - Added Gallery
@@ -75,7 +75,7 @@ A way for me to actually learn how to use APIs.
 
 Fifth commit and push to GitHub, added attribution and updated a few more things
 
-### Changes:
+### Changes
 
 - Added attribution
 - Fixed a few things
@@ -86,7 +86,7 @@ Fifth commit and push to GitHub, added attribution and updated a few more things
 
 Sixth commit & push to GitHub, just updated the age counter.
 
-### Changes:
+### Changes
 
 - Fixed age counter
 
@@ -94,7 +94,7 @@ Sixth commit & push to GitHub, just updated the age counter.
 
 Seventh commit and push, updated profile, added tooltips, and more description
 
-### Changes:
+### Changes
 
 - Updated profile
 - Changed from "Links" -> "Find me on"
@@ -112,7 +112,7 @@ Seventh commit and push, updated profile, added tooltips, and more description
 
 First commit in Vercel version
 
-### Changes:
+### Changes
 
 - Added disclaimer to switch to Vercel version (in older version)
 - Updated source code link in footer
@@ -121,7 +121,7 @@ First commit in Vercel version
 
 Second commit in Vercel version
 
-### Changes:
+### Changes
 
 - Added Education History
 - Added skills
@@ -132,13 +132,23 @@ Second commit in Vercel version
 
 Major update
 
-### Changes:
+### Changes
 
 - Updated Hero
 - Slightly reworked the intro section
 - Added mailto in intro section
 - Fixed CSS
 - Changed Read More button into Arrow
+
+## Log 10 - 8 April 2026
+
+Major changes
+
+### Changes
+
+- Added language toggle from Indonesian to English
+- Added TikTok link
+- Optimized Social Links
 
 ## CREDITS
 
