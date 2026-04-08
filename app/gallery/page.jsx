@@ -12,7 +12,6 @@ export default async function GalleryPage() {
         headers: {
           Authorization: `Client-ID ${ACCESS_KEY}`,
         },
-        // Cache the request for 1 hour to heavily optimize the page limit and avoid hitting the rate limit
         next: { revalidate: 3600 },
       }
     );

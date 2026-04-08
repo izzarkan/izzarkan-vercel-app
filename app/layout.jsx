@@ -12,7 +12,7 @@ export const metadata = {
   description:
     "A portfolio of a certain high school student who is having an identity crisis. (Arkan Izz's Portfolio)",
   icons: {
-    icon: "/media/logo2.svg",
+    icon: "/media/favicon.ico",
   },
 };
 

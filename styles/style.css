@@ -245,7 +245,6 @@ a:hover {
 
 .scroller {
     height: 1.5em;
-    /* Equals to line-height of text2 */
     line-height: 1.5em;
     overflow: hidden;
     display: inline-block;
