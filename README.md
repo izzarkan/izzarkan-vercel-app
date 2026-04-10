@@ -150,6 +150,14 @@ Major changes
 - Added TikTok link
 - Optimized Social Links
 
+## Log 11 - 10 April 2026
+
+Very small change
+
+### Changes
+
+- Changed favicon
+
 ## CREDITS
 
 - Thanks to [svgrepo.com](https://svgrepo.com) for providing me free SVG icons
