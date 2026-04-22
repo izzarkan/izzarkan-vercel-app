@@ -35,6 +35,11 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
+              <Link className="nav-link" href="/gallery-design">
+                Gallery Design
+              </Link>
+            </li>
+            <li className="nav-item">
               <a className="nav-link" href="mailto:arkanizz29@gmail.com">
                 Contact Me
               </a>

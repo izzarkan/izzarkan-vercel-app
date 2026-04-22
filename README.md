@@ -158,6 +158,14 @@ Very small change
 
 - Changed favicon
 
+## Log 12 - 22 April 2026
+
+### Changes
+
+- Added Pexels link
+- Added Design Gallery
+- Fixed some bugs
+
 ## CREDITS
 
 - Thanks to [svgrepo.com](https://svgrepo.com) for providing me free SVG icons
