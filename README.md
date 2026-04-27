@@ -160,11 +160,23 @@ Very small change
 
 ## Log 12 - 22 April 2026
 
+small change
+
 ### Changes
 
 - Added Pexels link
 - Added Design Gallery
 - Fixed some bugs
+
+## Log 13 - 28 April 2026
+
+small changes
+
+### Changes
+
+- Updated name (in Indonesian)
+- Added achievements
+- Adjusted
 
 ## CREDITS
 
