@@ -107,6 +107,13 @@ const translations = {
         date: "March 30 2026"
       }
     ],
+    achievementsHeading: "Achievements",
+    achievements: [
+      {
+        title: "3rd Runner Up in City-level National Student Arts and Literature Festival (FLS3N)",
+        description: "Photography Category - April 26 2026"
+      }
+    ],
     orgHeading: "Organizations & Extracurricular Activities",
     org1: "MICRO - Maestro IT Real Organization (2024 - Present)",
     org1Desc: "As: Programming Division Coordinator (2025 - present)",
@@ -205,6 +212,13 @@ const translations = {
         date: "30 Maret 2026"
       }
     ],
+    achievementsHeading: "Prestasi",
+    achievements: [
+      {
+        title: "Juara Harapan 3 Tingkat Kota dalam Festival Lomba Seni dan Sastra Siswa Nasional (FLS3N)",
+        description: "Bidang Fotografi - 26 April 2026"
+      }
+    ],
     orgHeading: "Organisasi & Ekstrakurikuler",
     org1: "MICRO - Maestro IT Real Organization (2024 - Sekarang)",
     org1Desc: "Sebagai: Koordinator Divisi Pemrograman (2025 - Sekarang)",
@@ -281,6 +295,18 @@ export default function About() {
               <li key={idx}>
                 {exp.title}
                 <p className="em-text">{exp.date}</p>
+              </li>
+            ))}
+          </ul>
+        </span>
+
+        <span>
+          <h5 className="poppins-bold">{t.achievementsHeading}</h5>
+          <ul>
+            {t.achievements.map((ach, idx) => (
+              <li key={idx}>
+                {ach.title}
+                <p className="em-text">{ach.description}</p>
               </li>
             ))}
           </ul>
